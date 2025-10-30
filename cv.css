@@ -1,0 +1,53 @@
+.p_ligne {
+    background: #234a69;
+    color: white;
+
+}
+
+.p_colonne_gauche,
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+h1{
+    font-size: bold;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+hr {
+    width: 400px;
+    font-size: 400;
+}
+
+p {
+    font-size: 25px;
+    width: 100%;
+}
+
+@media (max-width : 610px) {
+    body {
+        overflow-x: hiddens;
+    }
+
+    .media {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fs-4 {
+        margin: 0;
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+    }
+}
